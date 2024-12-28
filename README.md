@@ -26,15 +26,8 @@ patients with decompensated cirrhosis is approximately 50% [5]. [The](#_page22_x
 
 times higher in patients with chronic HCV compared to the general population [5]. F[actors ](#_page22_x85.04_y404.66)such as male gender, co-infection with hepatitis B or HIV, alcohol consumption, obesity, and insulin resistance can contribute to the progression of HCV from acute to chronic [5].
 
-2. Epidemiology and Transmission
 
-The World Health Organization (WHO) reports considerable variation in HCV prevalence across the globe with total global HCV prevalence estimated at 2.5% [7]. [In](#_page22_x85.04_y596.07) regions such as Africa, more than 2.9% of the population is affected, while in America, the prevalence is slightly above 1% [[7\].](#_page22_x85.04_y596.07) Egypt has the highest rate globally, with 14.7% of the population infected [[4\],](#_page22_x85.04_y352.80) primarily due to past medical practices involving unsterile needles. HCV is mainly transmitted through blood-to-blood contact, particularly via needle sharing among people who inject drugs (PWID), unsafe medical or cosmetic procedures, and sexual contact, especially in individuals co-infected with HIV. High-risk populations, including those who have received blood transfusions, PWID, dialysis patients, healthcare workers and those with multiple sexual partners, should be screened for HCV
-
-HCV infection is diagnosed using both indirect and direct methods. Indirect methods include serological tests, such as anti-HCV IgM (for recent infections) and anti-HCV IgG (for chronic infections). Direct methods detect the virus’s RNA through nucleic acid tests. Rapid immunoassay tests are commonly used for initial screening, while recombinant immunoblot assays (RIBA) confirm results [5].
-
-The huge proportion of undetected cases is a significant difficulty in HCV management since many people remain asymptomatic until liver damage becomes severe. Delayed diagnosis hinders treatment, especially for vulnerable populations. Furthermore, disparities in healthcare in low-resource areas exacerbate worldwide attempts to reduce HCV. HCV has a profound impact on both social and economic outcomes. Chronic infections lower quality of life and productivity by causing fatigue, discomfort, and other consequences. The economic burden comprises both direct healthcare expenditures (e.g., hospitalizations, diagnosis, and treatments) and indirect costs (e.g., loss of productivity and caring needs). Addressing HCV can lead to significant economic advantages by lowering healthcare costs and boosting workforce participation.
-
-3. Mathematical Modeling and Strategic Interventions
+2. Mathematical Modeling and Strategic Interventions
 
 Mathematical modelling is crucial for understanding how the Hepatitis C Virus (HCV) spreads and guiding public health efforts to manage the disease. One popular method is using compartmental models, which split the population into categories such as those who are susceptible to the virus, those who are infected, and those who have recovered. These models can predict or model the consequences of various public health actions, such as needle exchange programs or increased access to antiviral treatments, which could help prevent the spread of the virus.
 
@@ -108,21 +101,8 @@ Model Equations
 
 The dynamics of the model are governed by the following system of differential equations:
 
-dS
+![equationshepc](equationshepc.png)
 
-dt = −λS (Ia + Ic)
-
-dI
-
-dta = λS (Ia + Ic) − αIa dIdtc = αIa − τIc
-
-dTdt = τIc − γT
-
-dR
-
-- γT
-
-dt
 
 5  Mathematical Translations of the Model Questions
 1. Susceptible Population (S):
