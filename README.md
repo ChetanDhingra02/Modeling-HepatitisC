@@ -154,7 +154,8 @@ The data confirmed the high progression rate of acute HCV cases to chronic infec
 
 The simulation from MATLAB shown in Figure 2 [](#_page12_x85.04_y78.27) provides a thorough perspective of HCV dynamics under Egypt’s existing public health measures. If Egypt maintains its current intervention program, the model anticipates a large increase in chronic infections over the following two years starting from 2022. This increase is primarily due to the evolution of acute infections into chronic stages, which is impacted by treatment delay and the efficacy of existing treatments. However, after two years, the chronic infection curve begins to reduce as more people obtain effective treatment, resulting in a steady increase in the recovered population and a reduction in the susceptible population.
 
-![](Aspose.Words.0ec54e50-089e-48c2-b32c-18a3ab713cbe.004.png)
+<img src="FIG2_3_5.png" width="600" height="450">
+
 
 <a name="_page12_x85.04_y78.27"></a>Figure 2: Simulation of the different populations with the year 2022 as base level
 
@@ -191,27 +192,28 @@ To evaluate the significance of treatment, the simulation was rerun with reduced
 In conclusion, the simulation shows that Egypt’s current HCV intervention strategy, if continued, will likely result in a reduction in chronic infections over time, especially if the treatment rate remains high. The low reproduction number (R0 = 0.00000022) indicates that the disease is unlikely to spread effectively, emphasizing the success of existing treatment and preventative measures. However, sensitivity analysis shows that tiny changes in important factors, particularly the treatment and transmission rates, can drastically affect the disease’s trajectory. As a result, maintaining the treatment rate and prioritizing transmission reduction techniques will be critical for Egypt’s long-term progress and management of HCV.
 
 
-![](Aspose.Words.0ec54e50-089e-48c2-b32c-18a3ab713cbe.005.png)  
+<img src="FIG2_3_5.png" width="600" height="450">
+
 Figure 3: When τ = 0.005                                     
 
 
 
 
 
-![](Aspose.Words.0ec54e50-089e-48c2-b32c-18a3ab713cbe.006.png)  
+<img src="FIG4.png" width="600" height="450">
 Figure 4: When τ = 0.001
 
 ##  Answering the Biological Questions
 
 ### How Does Seasonal Variation Affect Transmission and Disease Burden?
 
-![](Aspose.Words.0ec54e50-089e-48c2-b32c-18a3ab713cbe.007.png)
+<img src="FIG5.png" width="600" height="450">
 
 Figure 5: Without Seasonal Variation 
 
 <br>
 
-![](Aspose.Words.0ec54e50-089e-48c2-b32c-18a3ab713cbe.008.png)
+<img src="fig6.png" width="600" height="450">
 
 Figure 6: With Seasonal Variation
 
@@ -219,7 +221,7 @@ To account for seasonal fluctuations in disease transmission, we insert peak mon
 
 ### What level of treatment coverage is required to reduce the chronic infection rate to a target level by 2030?
 
-![](Aspose.Words.0ec54e50-089e-48c2-b32c-18a3ab713cbe.009.png)
+<img src="fig7.png" width="600" height="450">
 
 <a name="_page17_x85.04_y154.57"></a>Figure 7: Chronic Infections v/s Treatment Coverage
 
@@ -233,7 +235,7 @@ The treatment rate τ is defined as:
 
 where the Diagnosis Rate (δ) is the rate at which infected individuals are identified through testing, and the Uptake Factor (κ) is the proportion of diagnosed individuals who proceed to treatment, influenced by accessibility and willingness.
 
-![](Aspose.Words.0ec54e50-089e-48c2-b32c-18a3ab713cbe.010.png)
+<img src="fig8.png" width="600" height="450">
 
 <a name="_page18_x85.04_y293.22"></a>
 
