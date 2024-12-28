@@ -107,47 +107,21 @@ The dynamics of the model are governed by the following system of differential e
 5  Mathematical Translations of the Model Questions
 1. Susceptible Population (S):
 
-dS
-
-dt = −λS (Ia + Ic)
-
-(1)
-
 The susceptible population decreases as people become infected through interactions with acutely or chronically infected individuals. The term −λS (Ia + Ic) describes the rate at which susceptible individuals become infected. The larger the susceptible population or the number of infectious individuals, the faster S declines. This equation captures the entry point of the disease into the population.
 
 2. Acutely Infected Population (Ia):
-
-dIa = λS (I + I ) − αI (2)
-
-dt a c a
 
 Ia increases due to newly infected susceptibles at a rate λS (Ia + Ic) but decreases owing to the maturation of acute infections to chronic ones at a rate αIa. Individuals in this compartment can still change their disease status to that of the next stages; hence, it represents an initial stage in infection. This balance between newly infected and progressed-to-chronic-stage reflects infectious dynamics with potential for early intervention of the disease.
 
 3. Chronically Infected Population (Ic):
 
-dIc = αI − τI (3)
-
-dt a c
-
 The chronically infected population grows from the development of acute infections (αIa) and is reduced through their treatment at the rate τIc. This is considered to be the long-run infectious state and may show significant contributions to disease persistence. Effective treatment strategies — a larger rate of treatment τ — reduce the burden of disease in the chronic, longer-lived infectious compartments and serve to reduce transmission further.
 
 4. Treated Population (T):
-
-dT
-
-- τI − γT (4)
-
-dt c
-
+5. 
 τIc represents the treated population that increases for chronically infected individuals under treatment but decreases as treated individuals recover by γT. This is a compartment of treated individuals on active treatment. Therefore, the size of this population represents the healthcare system’s capacity to manage the infection so that individuals transition through recovery easily.
 
-5. Recovered Population (R):
-
-dR
-
-- γT (5)
-
-dt
+6. Recovered Population (R):
 
 The recovered population grows as the treated individuals recover, with γT defining the rate of recovery. This is the compartment representing individuals who finish their treatment and are deemed non-infectious. The recovery rate γ determines the final size of the recovered population and thus measures the progress of the epidemic.
 
