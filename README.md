@@ -1,4 +1,5 @@
-Mathematical Modeling of Hepatitis C Virus (HCV) Transmission![](Aspose.Words.0ec54e50-089e-48c2-b32c-18a3ab713cbe.001.png) Dynamics and Intervention Strategies in Egypt![](Aspose.Words.0ec54e50-089e-48c2-b32c-18a3ab713cbe.002.png)
+Mathematical Modeling of Hepatitis C Virus (HCV) Transmission
+Dynamics and Intervention Strategies in Egypt
 
 1  Introduction
 
